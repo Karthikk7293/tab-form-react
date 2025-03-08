@@ -24,8 +24,8 @@ export default function TabForm() {
     const [data, setData] = useState({
         email: "",
         name: "",
-        age: "",
-        phone: ""
+        age: 18,
+        phone: 9087654631
     })
     const ActiveTabComponent = tabs[activeTab].Component
 
