@@ -1,0 +1,64 @@
+#root {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 1rem;
+}
+
+.container {
+	width: 50rem;
+	height: 30rem;
+}
+
+.tab-container {
+	display: flex;
+}
+
+.tab-button {
+	border: 1px solid red;
+	width: auto;
+	height: 2rem;
+	display: flex;
+	border-radius: 0%;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	cursor: pointer;
+}
+
+.tab-body {
+	border-radius: 1%;
+	background: whitesmoke;
+	color: black;
+	padding: 2rem;
+}
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+	height: 2rem;
+	border: 2px solid blue;
+	border-radius: 5px;
+	margin: 5px 0px;
+	background: transparent;
+	padding: .2rem;
+	min-width: 15rem;
+	color: black;
+}
+.navigate-button {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin: 1rem 0rem;
+}
+.navigate-button button {
+	padding: 5px 20px;
+	background: blue;
+	border-radius: 5px;
+	border: 1px solid lightblue;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
